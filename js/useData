@@ -1,0 +1,19 @@
+// const csvUrl = "https://gist.githubusercontent.com/qichun-dai/c546d6273de202794b9cadedfbd86384/raw/33143dbb12e8dfabb8838d20a8790b493d6c5f7c/leetcode.csv";
+
+// export const useData = () => {
+//   const [data, setData] = react.useState(null);
+
+//   react.useEffect(() => {
+//     const row = d => {
+//         d.Frequency = d.Frequency;
+//         d.Title = d.Title;
+//         d.Acceptance = d.Acceptance;
+//         d.Difficulty= d.Difficulty;
+//         d.Date = new Date(d.Date); // convert "Year" column to Date
+//         return d;
+//     };
+//     d3.csv(csvUrl, row).then(setData);
+//   }, []);
+  
+//   return data;
+// };
